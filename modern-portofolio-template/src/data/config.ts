@@ -86,8 +86,8 @@ export type Project = {
 export const projects: Project[] = [
   {
     title: "Industrial AI Maintenance Assistant",
-    description: "An AI assistant concept for industrial troubleshooting that draws on technical manuals, daily logs, and historical repair records, with structured storage for incidents, procedures, and outcomes.",
-    tags: ["Generative AI", "RAG", "LLM APIs", "MCP"],
+    description: "A full-stack facility maintenance platform for managing organizations, facility and machine hierarchies, technical manuals, and maintenance logs. Its retrieval-augmented AI answers maintenance questions using relevant manuals and historical records, with role-based access and invitation workflows.",
+    tags: ["Python", "FastAPI", "React", "PostgreSQL", "pgvector", "RAG"],
     image: "/placeholder.svg",
     period: "Oct 2026 – Present",
     github: "https://github.com/vinitha09/Maintanence-AI-agent-for-facility",
@@ -120,7 +120,8 @@ export const skills: Skill[] = [
 ];
 
 export const skillAreas = [
-  { name: "Backend development", details: "APIs, microservices, monolithic systems" },
+  { name: "Backend development", details: "Python, FastAPI, Java, Spring Boot, REST APIs, microservices, event-driven services" },
+  { name: "Frontend development", details: "React, JavaScript, Vite, HTML, CSS" },
   { name: "Cloud & DevOps", details: "Google Cloud Run, Cloud Storage, Pub/Sub, Secret Manager, CI/CD, Docker" },
   { name: "Databases", details: "MongoDB, PostgreSQL, SQLite, DB2" },
   { name: "AI & machine learning", details: "LLM APIs, RAG, generative AI, deep learning, CNNs, computer vision" },
